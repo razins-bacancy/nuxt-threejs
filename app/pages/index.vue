@@ -1,5 +1,11 @@
 <template>
-  <div class="text-2xl">Hello World</div>
+  <div>
+    <TresCanvas window-size>
+      <MainRender />
+    </TresCanvas>
+  </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { TresCanvas } from "@tresjs/core";
+</script>
